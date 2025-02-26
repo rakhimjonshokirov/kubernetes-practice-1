@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    author: r-shokirov
+    project: practice
+  name: nginx2
+  namespace: r-shokirov
+spec:
+  containers:
+    - name: nginx2
+      image: nginx
+      name: pod

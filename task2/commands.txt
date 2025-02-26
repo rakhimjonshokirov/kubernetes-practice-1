@@ -1,0 +1,5 @@
+kubectl run pod nginx1 -n r-shokirov --labels=project=practice,author=r-shokirov --image=nginx --dry-run=client -o yaml > task2/nginx-pod1.yaml
+kubectl run pod nginx2 -n r-shokirov --labels=project=practice,author=r-shokirov --image=nginx --dry-run=client -o yaml > task2/nginx-pod2.yaml
+k create -f task2/nginx-pod1.yaml -n r-shokirov
+k create -f task2/nginx-pod2.yaml -n r-shokirov
+k get pods -n r-shokirov
