@@ -1,0 +1,5 @@
+NAME         TYPE       CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
+practice-1   NodePort   10.233.42.210   <none>        7711:31549/TCP   5m16s
+
+----
+{"author":"r-shokirov","db_url":"postgres://admin:supersecret@10.10.10.1:5432/exam-db","environment":"dev","grpc_port":"8080","log_level":"debug"}
