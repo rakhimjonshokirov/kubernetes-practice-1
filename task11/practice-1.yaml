@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: practice-1
+  name: practice-1
+  namespace: r-shokirov
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: practice-1
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: practice-1
+    spec:
+      containers:
+      - image: rakhimjonshokirov/kubernetes-practice-1:v1
+        name: kubernetes-practice-1
+        ports:
+        - containerPort: 5000

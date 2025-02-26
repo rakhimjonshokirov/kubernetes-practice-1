@@ -1,0 +1,13 @@
+kubectl port-forward pod/practice-1-76dbdbb7db-b4766 7711:5000 -n r-shokirov
+Forwarding from 127.0.0.1:7711 -> 5000
+Forwarding from [::1]:7711 -> 5000
+Handling connection for 7711
+Handling connection for 7711
+
+-----
+curl --location 'http://localhost:7711/config'
+{"author":"r-shokirov","db_url":"postgres://admin:supersecret@10.10.10.1:5432/exam-db","environment":"dev","grpc_port":"8080","log_level":"debug"}
+
+----
+kubectl get deployments -n r-shokirov | awk '/practice/ {print}'
+practice-1   2/2     2            2           5m47s
