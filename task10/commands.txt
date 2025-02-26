@@ -1,0 +1,3 @@
+docker build --platform linux/arm64 -t rakhimjonshokirov/kubernetes-practice-task-1:v1 .
+docker push rakhimjonshokirov/kubernetes-practice-task-1:v1
+docker images | awk '/task-1/ {print}'

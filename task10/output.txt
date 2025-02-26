@@ -1,0 +1,14 @@
+The push refers to repository [docker.io/rakhimjonshokirov/kubernetes-practice-task-1]
+39d9d160c096: Pushed 
+26f823b359fa: Pushed 
+529b083bc0ba: Pushed 
+6e771e15690e: Mounted from rakhimjonshokirov/tic-tac-toe 
+2173f8b432fe: Pushed 
+278416a87923: Pushed 
+b60a29b5b291: Pushed 
+8585656615c7: Pushed 
+v1: digest: sha256:c8cd9a1857b7a16454ba506c56ed67015310a11596f7c631d836ef025e9c4f08 size: 856
+
+
+-------
+rakhimjonshokirov/kubernetes-practice-task-1   v1         c8cd9a1857b7   7 minutes ago    115MB
