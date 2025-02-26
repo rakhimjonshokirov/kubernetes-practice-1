@@ -1,0 +1,5 @@
+practice-service   ClusterIP   10.233.8.245    <none>        5000/TCP         3m54s
+
+----
+# curl -s http://practice-service.r-shokirov.svc.cluster.local:5000/practice
+{"author":"r-shokirov","message":"Well DONE!"}

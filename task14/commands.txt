@@ -1,0 +1,5 @@
+kubectl expose deployment practice-1 --port=5000 --target-port=5000 --type=ClusterIP -n r-shokirov --name=practice-service
+kubectl get services -n r-shokirov | awk '/Cluster/ {print}'
+
+----
+kubectl exec -it nginx1 -n r-shokirov -- sh
