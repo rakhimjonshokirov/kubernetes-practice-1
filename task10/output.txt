@@ -11,4 +11,4 @@ v1: digest: sha256:c8cd9a1857b7a16454ba506c56ed67015310a11596f7c631d836ef025e9c4
 
 
 -------
-rakhimjonshokirov/kubernetes-practice-task-1   v1         c8cd9a1857b7   7 minutes ago    115MB
+rakhimjonshokirov/kubernetes-practice-1   v1         c8cd9a1857b7   7 minutes ago    115MB

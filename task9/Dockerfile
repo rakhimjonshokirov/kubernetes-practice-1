@@ -17,6 +17,10 @@ WORKDIR /app
 COPY --from=builder /usr/local/lib/python3.9/site-packages /usr/local/lib/python3.9/site-packages
 COPY --from=builder /app .
 
+# Set environment variables in the final stage
+ENV ENV="PROD"
+ENV AUTHOR="r-shokirov"
+
 EXPOSE 5000
 
 CMD ["python", "app.py"]
