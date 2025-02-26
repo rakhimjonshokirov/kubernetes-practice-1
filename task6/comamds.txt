@@ -1,0 +1,1 @@
+kubectl create deploy hr-app --image=nginx:1.18 --replicas 1 -n r-shokirov
