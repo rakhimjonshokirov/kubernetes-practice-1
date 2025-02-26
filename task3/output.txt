@@ -1,0 +1,33 @@
+      author: Abdumalik
+      author: Abdumalik
+      author: Abdumalik
+        {"apiVersion":"v1","kind":"Pod","metadata":{"annotations":{},"labels":{"author":"abduhalil","project":"practice"},"name":"nginx1","namespace":"a-yoldoshov"},"spec":{"containers":[{"image":"nginx","name":"nginx"}]}}
+      author: abduhalil
+        {"apiVersion":"v1","kind":"Pod","metadata":{"annotations":{},"labels":{"author":"abduhalil","project":"practice"},"name":"nginx2","namespace":"a-yoldoshov"},"spec":{"containers":[{"image":"nginx","name":"nginx"}]}}
+      author: abduhalil
+        {"apiVersion":"v1","kind":"Pod","metadata":{"annotations":{},"labels":{"author":"f-absoatov","project":"practice","run":"nginx-absoatov"},"name":"nginx1","namespace":"f-absoatov"},"spec":{"containers":[{"image":"nginx:latest","name":"nginx-absoatov","ports":[{"containerPort":80}]}],"restartPolicy":"Always"}}
+      author: f-absoatov
+        {"apiVersion":"v1","kind":"Pod","metadata":{"annotations":{},"labels":{"author":"f-absoatov","project":"practice"},"name":"nginx2","namespace":"f-absoatov"},"spec":{"containers":[{"image":"nginx:latest","name":"nginx","ports":[{"containerPort":80}]}],"restartPolicy":"Always"}}
+      author: f-absoatov
+        {"apiVersion":"v1","kind":"Pod","metadata":{"annotations":{},"creationTimestamp":null,"labels":{"author":"farrukh","project":"practice","run":"nginx1"},"name":"nginx1","namespace":"f-sadatov"},"spec":{"containers":[{"image":"nginx:latest","name":"nginx1","ports":[{"containerPort":80}],"resources":{}}]}}
+      author: farrukh
+        {"apiVersion":"v1","kind":"Pod","metadata":{"annotations":{},"creationTimestamp":null,"labels":{"author":"farrukh","project":"practice","run":"nginx2"},"name":"nginx2","namespace":"f-sadatov"},"spec":{"containers":[{"image":"nginx:latest","name":"nginx2","ports":[{"containerPort":80}],"resources":{}}]}}
+      author: farrukh
+      author: i-abdullayev
+      author: i-abdullayev
+        {"apiVersion":"v1","kind":"Pod","metadata":{"annotations":{},"labels":{"author":"jasurbek","project":"practice"},"name":"nginx1","namespace":"j-jumanazarov"},"spec":{"containers":[{"image":"nginx:1.14.2","name":"nginx1","ports":[{"containerPort":80}]}]}}
+      author: jasurbek
+        {"apiVersion":"v1","kind":"Pod","metadata":{"annotations":{},"labels":{"author":"jasurbek","project":"practice"},"name":"nginx2","namespace":"j-jumanazarov"},"spec":{"containers":[{"image":"nginx:1.14.2","name":"nginx2","ports":[{"containerPort":80}]}]}}
+      author: jasurbek
+      author: muzaffar
+      author: muzaffar
+      author: ToshevOsmon
+      author: ToshevOsmon
+      author: r-shokirov
+      author: r-shokirov
+      author: xurshid
+      author: xurshid
+      - author=Xondamir
+      - author=Xondamir
+      author: z-abduvohidov
+      author: z-abduvohidov
