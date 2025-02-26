@@ -1,0 +1,2 @@
+NAME     READY   UP-TO-DATE   AVAILABLE   AGE
+hr-app   2/2     2            2           4m31s

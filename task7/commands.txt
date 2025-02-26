@@ -1,0 +1,1 @@
+kubectl scale deploy hr-app --replicas 2 -n r-shokirov
