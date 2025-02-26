@@ -1,0 +1,4 @@
+NAME      READY   STATUS    RESTARTS   AGE
+busybox   1/1     Running   0          104s
+nginx1    1/1     Running   0          24m
+nginx2    1/1     Running   0          19m

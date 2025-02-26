@@ -1,0 +1,2 @@
+kubectl run busybox -n r-shokirov --image busybox --command -- sleep 3600
+kubectl get pod -n r-shokirov
