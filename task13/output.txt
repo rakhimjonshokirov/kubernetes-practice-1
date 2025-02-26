@@ -1,0 +1,2 @@
+NAME         ENDPOINTS                              AGE
+practice-1   10.233.66.226:5000,10.233.67.52:5000   11m
